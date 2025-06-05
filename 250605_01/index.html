@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AGRUFIL CEUTA</title>
+    <meta name="description" content="AGRUFIL CEUTA">
+    <meta name="keywords" content="AGRUFIL CEUTA">
+    <meta name="author" content="Agrupación Filatélica de Ceuta">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="icon" href="img/logo.png" type="image/png">
+    <link rel="apple-touch-icon" href="img/logo.png" type="image/png">
+
+    <!-- style css -->
+     <link rel="stylesheet" href="style.css">
+
+    <!--Boxicons -->
+     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!--Remix icon-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css">
+    
+    <!--Swiper Slider CSS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.css">
+
+    <!-- Font Awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   
+</head>
+<body>
+
+    <!-- MENÚ SECUNDARIO -->
+    <div class="nav-wrapper">
+      <div class="top-nav">
+        <div class="navbar-top" id="navbarTop">
+          <div class="top-nav-col">
+            <h2><i class="ri-map-pin-fill"></i>APARTADO DE CORREOS NUM. 559 - 51080 - CEUTA - ESPAÑA</h2>
+            <h2><i class="ri-mail-ai-line"></i>agrufilaceuta@gmail.com</h2>
+          </div>
+
+          <div class="top-nav-social-icons">
+            <a href="https://www.facebook.com/profile.php?id=100067203572884&locale=es_ES" target="_blank">
+              <h2>
+                <div><i class="ri-facebook-circle-fill"></i></div>
+                <div class="agrufila">AGRUFILA-CEUTA</div>
+              </h2>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <!-- MENÚ PRINCIPAL -->
+    <nav class="nav nav__dos">
+      <div class="nav__container nav__contenedor">
+        <div class="navbar-bottom" id="navbarBottom">
+          <a href="index.html">
+          <figure class="nav__figure">
+            <img src="img/logo.png" alt="logo" class="nav__logo" width="80px" style="display: block;">
+          </figure>
+          </a>
+
+          <ul class="nav__list">
+            <li class="nav__item"><a href="index.html" class="nav__link">Inicio</a></li>
+            <li class="nav__item"><a href="#" class="nav__link">Nosotros</a></li>
+            <li class="nav__item"><a href="#" class="nav__link">Actividades</a></li>
+            <li class="nav__item"><a href="#" class="nav__link">Blog</a></li>
+            <li class="nav__item"><a href="#" class="nav__link">Contacto</a></li>
+          </ul>
+
+          <div class="nav-btn">
+            <a href="#modal" class="cta"><button>Suscríbete <i class="ri-arrow-right-long-line"></i></button></a>
+          </div>
+
+          <label class="nav__toggle">
+            <input type="checkbox" id="menu-input" class="nav__input">
+          </label>
+        </div>
+      </div>
+    </nav>
+  
+  <!-- MODAL SECTION -->
+    <section class="modal" id="modal">
+      <div class="modal__container">
+
+        <figure class="modal__picture">
+          <img src="img/logo.png" class="modal__img" alt="logo">
+        </figure>
+
+        <div class="modal__texts">
+          <h2 class="modal__title">¡SUSCRÍBETE A LA AGRUPACIÓN FILATÉLICA DE CEUTA!</h2>
+          <p class="modal__paragraph">
+            Si te suscribes a nuestra lista de correo, recibirás noticias y actualizaciones sobre nuestras actividades y eventos.
+          </p>
+        </div>
+        
+        <form action="https://formsubmit.co/9b51034178bb3b87fe70f21ad9c9a591" method="POST" class="form">
+          <section class="form__register">
+            <div class="form__inputs">
+              <div class="form__group">
+                <input type="text" name="name" class="form__input" placeholder=" " required >
+                <label class="form__label">Nombre:</label>
+                <span class="form__bar"></span>
+              </div>
+              <div class="form__group">
+                <input type="email" name="email" class="form__input" placeholder=" " required >
+                <label class="form__label">Email:</label>
+                <span class="form__bar"></span>
+              </div>
+
+              <input type="hidden" name="_template" value="table">
+              <!-- <input type="hidden" name="_next" value="thanks.html"> -->
+              <input type="hidden" name="_captcha" value="false">
+            </div>
+            <button type="submit">Suscribirme</button>
+          </section>  
+        </form>
+        
+        <a href="#" class="modal__close">X</a>
+      </div>
+    </section>
+
+  <!-- HERO SECTION -->
+  <section class="home" id="home">
+    <div class="content-box">
+      <div class="icon-box">
+        <a href="https://www.facebook.com/profile.php?id=100067203572884&locale=es_ES" target="_blank"><i class='bx bxl-facebook'></i></a>
+      </div>
+
+      <div class="text-box">
+        <h1>Bienvenido a la Agrupación Filatélica de <span class="ceuta">Ceuta</span></h1>
+        <h3><span class="skills">Medalla de Bronce al Mérito Filatélico</span></h3>
+        <p>La Agrupación Filatélica de Ceuta es una Asociación sin ánimo de lucro dedicada a la promoción y difusión de la filatelia en Ceuta y su entorno.</p>
+        <button type="button" onclick="location.href='video/video.mp4';" target="_blank" class="btn nav-btn2">Ver el vídeo del 75 Aniversario<i class="ri-arrow-right-long-line"></i></button>        
+      </div>
+      <div class="img-hero">
+        <img src="img/dibujo.svg" class="img1" alt="hero1">
+      </div>
+    </div>
+
+    <section class="anuncio">
+      <div class="anuncio__content">
+        <a href="Document/75aniversario.pdf" class="pdf-link" target="_blank"> 
+          <form action="" class="input-form">
+            <div class="input-box input-img">
+              <img src="img/matasellos75.png" alt="logo" class="input-img__logo">
+            </div>
+            <div class="input-box input-text">
+              <h2>75 ANIVERSARIO DE LA AGRUPACIÓN FILATÉLICA DE CEUTA (1950-2025)</h2>
+            </div>
+          </form>
+        </a>
+      </div>
+    </section>  
+
+  </section>
+
+
+<br><br><br><br><br><br><br><br><br>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure non consequuntur quis maxime cum eius alias, ut hic eligendi dolorum illum quod animi aliquid corporis, quo ea corrupti et perferendis accusantium voluptatum. Eligendi odio iusto nihil explicabo modi eum animi minus aperiam! Nobis voluptatum fuga voluptates obcaecati temporibus! Labore tempora culpa in voluptatum facere suscipit quibusdam sit dignissimos facilis, eius sapiente sunt quam dolor dolorem libero error nostrum nobis inventore esse veniam rerum dolore? Quos, minima expedita veniam fugiat aspernatur aliquid quam nisi amet vitae ea distinctio nam magnam porro voluptate pariatur, eos consequuntur obcaecati voluptatem accusamus reiciendis sit repudiandae omnis quae! Eligendi rem libero exercitationem doloremque voluptatum dolorum placeat earum esse architecto nemo ratione dignissimos, id nihil eius aperiam facere quod culpa corrupti possimus commodi deleniti vel at quo! Nostrum praesentium sed dolorum modi neque nemo omnis, assumenda dolorem dolore quas commodi aperiam accusamus, et ratione fugit minima facere doloribus nam ut reiciendis totam, illum quos. Aut facilis natus ullam velit exercitationem eius veniam cupiditate vero in odio nostrum, labore molestiae dolor maxime. Temporibus provident sapiente consectetur dolores eligendi nobis ab voluptatum qui pariatur aliquam mollitia ipsam modi aut similique animi facere rem eos suscipit consequatur itaque architecto ex maiores, facilis corporis! Repudiandae ducimus omnis eius asperiores atque, ipsa sint alias! Praesentium veritatis facere dignissimos dicta molestiae eligendi dolorem repellendus atque magnam at, expedita corporis alias minima aliquam laborum, neque placeat assumenda rerum nemo? Amet, odit eius possimus dolor architecto quisquam asperiores ratione voluptas iste? Tempora asperiores aspernatur voluptatibus esse et minima amet cupiditate, deserunt minus consequatur incidunt dolor, perspiciatis delectus optio culpa, quod impedit natus qui maiores officiis. Asperiores non, blanditiis error ut mollitia esse beatae dolor atque et consectetur voluptate hic voluptatum, corrupti nisi. Ipsum nemo beatae corrupti molestias perspiciatis quia cumque ea! Modi quod nisi exercitationem ab ipsum, quisquam earum voluptatum nam pariatur aspernatur atque neque possimus eum iste quidem? Quae qui nesciunt obcaecati ipsam sed eaque reprehenderit modi doloremque harum illo natus debitis distinctio veniam ipsa, nemo at, quaerat accusamus commodi. Deleniti id blanditiis aperiam temporibus deserunt dolore optio esse minima minus, consectetur ab nemo ratione est ipsum odit voluptate itaque animi alias tempore vel corporis! Blanditiis obcaecati delectus quod accusamus eaque voluptatum dolores iure asperiores totam. Aut, quas laboriosam! Laboriosam natus, magnam temporibus a dicta velit quos tempora dolorem aspernatur, sapiente blanditiis? Iste id nesciunt facilis sequi necessitatibus quas animi cum beatae hic officiis nam quae, autem sed facere repellat eos ut consequuntur vitae possimus assumenda quod quo officia voluptatem architecto? Iusto doloribus dolor ipsam! Quam, accusantium pariatur aliquam dolore molestiae eum eaque error accusamus, ratione aperiam expedita nihil voluptatem, nobis illo sed qui earum soluta molestias non exercitationem quae! Aperiam fugit nulla pariatur eum, eos iure harum magnam, eveniet expedita laborum tenetur necessitatibus. Perferendis esse necessitatibus veniam quasi molestias eum eveniet blanditiis alias mollitia fugiat optio inventore perspiciatis ducimus hic non cumque, nam accusantium numquam nobis repudiandae, sequi sit! Reiciendis ad laboriosam natus nesciunt incidunt, labore sapiente qui tenetur optio nostrum commodi autem?</p>
+
+
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js"></script>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
+
